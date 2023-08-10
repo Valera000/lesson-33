@@ -1,0 +1,21 @@
+word = input('Word: '))
+number = int(input('Number: '))
+
+Ist = []
+
+for i in word:
+    Ist.append(i)
+
+    print(f"The {number} symbol in '{word}' is {Ist[number]}")
+
+
+
+
+Ist1 = ['1', '2',3, True, 'False', 5, '6',n7, 8,  'Python' , 9, 0, 'Lorem Ipsum']
+Ist2 = []
+
+for i in Ist1:
+    if type(i) is int or type (i) is float:
+     Ist2.append(i)
+
+print(Ist2)
